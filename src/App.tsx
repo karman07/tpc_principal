@@ -11,7 +11,7 @@ import Chairman from "./pages/Chairman";
 import ViceChairman from "./pages/ViceChairman";
 import Coordinator from "./pages/Coordinator";
 import ScrollToTop from "./components/ScrollToTop";
-import Carousel from "./components/MessageCarousel";
+import Carousel from "./pages/MessageCarousel";
 
 function App() {
   return (
