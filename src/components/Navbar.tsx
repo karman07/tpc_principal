@@ -85,7 +85,7 @@ const Navbar: React.FC = () => {
             ))}
             <li>
               <Link
-                to='https://forms.office.com/r/5qqTF4H4is'
+                to='https://docs.google.com/forms/d/e/1FAIpQLSf1MfY8H_wI_NBAeV1-wRQ_I5MzYGH88I9S-qBoG2POeg6WEA/viewform'
                 target='_blank'
                 className='block py-3 px-4 bg-gradient-to-r from-[#2073c6] via-[#07386a] to-[#985D9B] text-white rounded-md hover:from-[#2274c6] hover:via-[#062e56] hover:to-[#935496]'
                 onClick={closeSidebar}>

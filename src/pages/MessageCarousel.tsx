@@ -66,17 +66,23 @@ const messages: Message[] = [
 
 const MessageCard: React.FC<{ data: Message }> = ({ data }) => (
   <div className="w-full md:w-1/2 px-4 mb-8">
-    <div className="bg-white shadow-lg rounded-2xl p-6 h-full flex flex-col items-center text-center">
-      <img
-        src={data.image}
-        alt={data.title}
-        className="w-24 h-24 object-cover rounded-full border-4 border-gray-100 shadow-sm mb-4"
-      />
-      <h2 className="font-serif font-semibold text-lg text-slate-800 mb-2">{data.title}</h2>
+    <div className="bg-white shadow-lg rounded-2xl p-6 h-full flex flex-col">
+      <div className="flex flex-col items-center text-center">
+        <img
+          src={data.image}
+          alt={data.title}
+          className="w-24 h-24 object-cover rounded-full border-4 border-gray-100 shadow-sm mb-4"
+        />
+        <h2 className="font-serif font-semibold text-lg text-slate-800 mb-2">
+          {data.title}
+        </h2>
+      </div>
+
       <p className="text-sm text-justify text-slate-700 leading-relaxed whitespace-pre-line mb-4">
         {data.message}
       </p>
-      <div className="text-sm text-center mt-auto">
+
+      <div className="text-sm text-right mt-auto">
         <p className="text-slate-600">Warm regards,</p>
         <p className="text-base font-semibold text-red-600">{data.name}</p>
         <p className="text-slate-500 mt-1">

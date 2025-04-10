@@ -32,7 +32,36 @@ const InspirationVoice = () => {
         "Professor, Civil Engineering, TIET, Coordinator, Thapar Polytechnic College",
       image: "/coordinator.png",
       link: "/coordinators-message",
-    }
+    },
+    {
+      title: "Coordinator",
+      name: "DR. DWARIKA NATH RATHA",
+      description:
+        "Professor, Civil Engineering, TIET, Coordinator, Thapar Polytechnic College",
+      image: "/nair.png",
+      link: "/coordinators-message",
+    }, {
+      title: "Coordinator",
+      name: "DR. DWARIKA NATH RATHA",
+      description:
+        "Professor, Civil Engineering, TIET, Coordinator, Thapar Polytechnic College",
+      image: "/batish.png",
+      link: "/coordinators-message",
+    }, {
+      title: "Coordinator",
+      name: "DR. DWARIKA NATH RATHA",
+      description:
+        "Professor, Civil Engineering, TIET, Coordinator, Thapar Polytechnic College",
+      image: "/principal.png",
+      link: "/coordinators-message",
+    }, {
+      title: "Coordinator",
+      name: "DR. DWARIKA NATH RATHA",
+      description:
+        "Professor, Civil Engineering, TIET, Coordinator, Thapar Polytechnic College",
+      image: "/coordinator.png",
+      link: "/coordinators-message",
+    },
   ]);
 
   return (
